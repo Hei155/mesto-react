@@ -1,0 +1,12 @@
+.menu__panel {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media screen and (max-width: 1279px) {
+    .menu__panel {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,14 @@
+.menu {
+    width: calc(100% - 400px);
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 51px;
+}
+
+@media screen and (max-width: 767px) {
+    .menu {
+        width: calc(100% - 38px);
+        padding-top: 38.25px;
+        padding-bottom: 36px;
+    }
+}

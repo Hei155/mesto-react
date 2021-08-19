@@ -1,0 +1,22 @@
+.menu__description {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 0;
+    overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 1279px) {
+    .menu__description {
+        margin-bottom: 36px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .menu__description {
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+    }
+}

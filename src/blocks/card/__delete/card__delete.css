@@ -1,0 +1,8 @@
+.card__delete {
+    cursor: pointer;
+    transition: ease-in-out .2s;
+}
+
+.card__delete:hover {
+    opacity: .5;
+}

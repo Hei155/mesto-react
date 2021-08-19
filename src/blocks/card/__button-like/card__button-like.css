@@ -1,0 +1,16 @@
+.card__button-like {
+    padding: 0;
+    margin-right: 20px;
+    padding-right: 20px;
+    border: none;
+    height: 19px;
+    width: 22px;
+    margin-top: 22px;
+    transition: ease-in-out .2s;
+    cursor: pointer;
+    background: url(../../../images/buttonActive.svg) no-repeat;
+}
+
+.card__button-like:hover {
+    opacity: .5;
+}

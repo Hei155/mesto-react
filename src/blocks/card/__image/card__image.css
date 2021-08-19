@@ -1,0 +1,10 @@
+.card__image {
+    border-radius: 10px 10px 0px 0px;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    display: block;
+    width: 100%;
+    height: auto;
+    height: 282px;
+    object-fit: cover;
+    cursor: pointer;
+}

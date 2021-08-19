@@ -1,0 +1,20 @@
+.menu__pictures {
+    position: relative;
+    height: 120px;
+    cursor: pointer;
+    
+}
+
+.menu__pictures:hover .menu__avatar {
+    opacity: .2;
+}
+
+.menu__pictures:hover .menu__photo-edit {
+    visibility: visible;
+}
+
+@media screen and (max-width: 767px) {
+    .menu__pictures {
+        margin: 0 auto;
+    }
+}

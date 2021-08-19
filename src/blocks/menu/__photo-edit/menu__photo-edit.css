@@ -1,0 +1,7 @@
+.menu__photo-edit {
+    position: absolute;
+    left: 39.1666%;
+    top: 39.1666%;
+    visibility: hidden;
+    transition: visibility .2s ease-in-out;
+}
