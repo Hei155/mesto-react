@@ -31,6 +31,7 @@ class Api {
             })
         }     
         )
+        .then(this._handleResponse);
     };
 
     setCard(cardName, cardLink) {
@@ -69,6 +70,7 @@ class Api {
                 avatar: avatarUrl
             })
         })
+        .then(this._handleResponse);
     };
 
     deleteCard(cardId) {
@@ -76,6 +78,7 @@ class Api {
             method: 'DELETE',
             headers: this._headers
         })
+        .then(this._handleResponse);
     };
 
     _handleResponse(res) {
