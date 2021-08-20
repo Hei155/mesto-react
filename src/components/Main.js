@@ -2,7 +2,7 @@ import editVector from '../images/editVector.svg';
 import edit from '../images/Edit.svg';
 import { Card } from './Card';
 import React from 'react';
-import api from './api'
+import api from '../utils/api'
 
 export function Main(props) {
     const [cards, setCards] = React.useState([]);
