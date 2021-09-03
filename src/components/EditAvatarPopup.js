@@ -10,14 +10,13 @@ export function EditAvatarPopup(props) {
           });        
     }
     return (
-        <PopupWithForm name="avatar-edit" title="Обновить аватар" isOpen={props.isOpen} onClose={props.onClose} text={'Сохранить'}  onSubmitForm={handleSubmit}
-          children={
+        <PopupWithForm name="avatar-edit" title="Обновить аватар" isOpen={props.isOpen} onClose={props.onClose} text={'Сохранить'}  onSubmitForm={handleSubmit}>
             <>
                 <label className="popup__field">
                     <input className="popup__input" id="profile" name="photoProfileName" type="url"  placeholder="Ссылка на картинку" required ref={avatarLink}/>
                     <span className="popup__input-error profile-error"></span>
                 </label>
             </>
-          }/> 
+        </PopupWithForm>
     )
 }

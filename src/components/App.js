@@ -112,11 +112,7 @@ function App() {
     function handleCardDelete(card) {
         api.deleteCard(card._id)
         .then(() => {
-            api.getInitialCards()
-            .then((res) => {
-                closeAllPopups();
-                setCards([...res]);
-            })
+            setCards([...cards].filter(cards => !(cards._id === card._id)))
             })
         .catch((err) => {
             console.log(err)
