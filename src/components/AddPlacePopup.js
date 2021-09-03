@@ -12,8 +12,7 @@ export function AddPlacePopup(props) {
         })
     }
     return(
-        <PopupWithForm name="photo-edit" title="Новое место" isOpen={props.isOpen} onClose={props.onClose} text={'Сохранить'} onSubmitForm={handleAddPlaceSubmit}
-          children={
+        <PopupWithForm name="photo-edit" title="Новое место" isOpen={props.isOpen} onClose={props.onClose} text={'Сохранить'} onSubmitForm={handleAddPlaceSubmit}>
             <>
                 <label className="popup__field">
                     <input className="popup__input" id="photo" name="name" type="text" placeholder="Название" required minLength="2" maxLength="30" ref={photoName}/>
@@ -24,6 +23,6 @@ export function AddPlacePopup(props) {
                     <span className="popup__input-error link-error"></span>
                 </label>
             </>
-          }/>
+        </PopupWithForm>
     )
 }
